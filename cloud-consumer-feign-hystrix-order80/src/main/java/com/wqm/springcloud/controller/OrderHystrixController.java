@@ -34,7 +34,7 @@ public class OrderHystrixController {
     }
 
     public String paymentInfo_TimeOutHandler(Integer id){
-        return "我是消费者80，对方支付系统繁忙，请稍后再试，o(╥﹏╥)o";
+        return "我是消费者80，对方支付系统繁忙，请稍后再试！！！o(╥﹏╥)o";
     }
 
     public String payment_Global_FallbackMethod(){
